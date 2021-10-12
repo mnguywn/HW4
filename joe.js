@@ -1,3 +1,4 @@
+var name = prompt("Please enter your name:", " ");
 var hotdogs = prompt ("How many hotdogs would you like? (Please enter a whole number):", 0);
 var fries = prompt ("How many french fries would you like? (Please enter a whole number):",0);
 var drinks = prompt ("How many drinks would you like? (Please enter a whole number):",0);
