@@ -4,9 +4,9 @@
         <link rel="stylesheet" href="stylesheet.css">
         <script src="joe.js"></script>
         <title>Joe's Hotdog Stand</title>
-
     </head>
     <body>
+        <h1>Joe's Hotdog Stand</h1>
         <h2>Your receipt:</h2>
         <div class="row">
             <div class="column">
@@ -20,9 +20,9 @@
             <div class="column">
               <h3>Your total is:</h3>
               <script language = "javascript">
-                  document.writeln(hotdogs + " hotdog(s) - $" + totalHotdogs.toFixed(2) + "<br>");
-                  document.writeln(fries + " fries - $" + totalFries.toFixed(2) + "<br>");
-                  document.writeln(drinks + " drink(s) - $" + totalDrinks.toFixed(2) + "<br>");
+                  document.writeln(hotdogs + " hotdog(s) ...... $" + totalHotdogs.toFixed(2) + "<br>");
+                  document.writeln(fries + " fries ...... $" + totalFries.toFixed(2) + "<br>");
+                  document.writeln(drinks + " drink(s) ...... $" + totalDrinks.toFixed(2) + "<br>");
 
                 if(subTotal.toFixed(2) >= 20.00) {
                         document.writeln("<br> <em>Congrats! You've received a 10% discount of $" + discountAmount.toFixed(2) + "<br> for spending $20 or more today! </em> <br>");
